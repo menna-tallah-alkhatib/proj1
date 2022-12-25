@@ -5,7 +5,7 @@ print("enter name and age and addrass")
 name=input()
 age=input()
 address=input()
-if name=="":
+if name=="" or age=""or address="":
     print("the input is erorr")
 else:
    print("the name is string",not(name.isdigit()))
